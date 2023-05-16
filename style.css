@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family:'Roboto', Arial; sans-serif;
+    color: white;
+}
+
+.header {
+    border: 20px;
+    padding: 20px;
+    background-color: green;
+    color: 124559;
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    font-size: 20px;
+    margin-left: 80px;
+    align-items: flex-end;
+}
+
+li {
+    display: inline;
+}
+
+div {
+    margin: 10px 0;
+}
+
+.about-me {
+    margin: 20px 0;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+p {
+    
+}
+
+footer {
+    padding: 20px;
+    border-top: 20px;
+    text-align: center;
+    background-color: green;
+}
