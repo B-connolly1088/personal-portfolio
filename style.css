@@ -5,15 +5,14 @@
 }
 
 body {
-    background-color: #124559;
     font-family:'Roboto', Arial, sans-serif;
     color: #01161E;
-}
+    background-image: linear-gradient(to bottom right, #1e130c, #9a8478);
+    }
 
-.header {
+header {
     border: 20px;
     padding: 20px;
-    background-color: white;
     color: #01161E;
     display: flex;
     width: auto;
@@ -21,16 +20,15 @@ body {
     justify-content: space-between;
 }
 
-article {
-    height: 800px;
-    width: 800px;
-    border: 2px solid green;
+main {
+    padding: 200px;
 }
 
 nav {
     font-size: 20px;
     margin-left: 80px;
-    /* align-items: flex-end; */
+    margin-right: 175px;
+    width: 350px;
 }
 
 div {
@@ -38,7 +36,10 @@ div {
 }
 
 .headshot {
-    justify-content: flex-start;
+    justify-content:space-around;
+    height: 110px;
+    width: auto;
+    border-radius: 40px;
 }
 
 .navlinks {
@@ -57,7 +58,12 @@ div {
 .about-me {
     display: flex;
     justify-content: space-around;
-    /* margin: 20px 0; */
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
 }
 
 h2{
@@ -65,25 +71,65 @@ h2{
 }
 
 p {
-    border: 2px solid pink;
     width: 800px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
 }
 
 main {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    height: 200px;
+    width: 800px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link {
+    display:flex
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .work {
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-footer {
-    padding: 20px;
-    border-top: 20px;
-    text-align: center;
-    background-color: white;
-    position: relative;
-    margin-top: 300px;
+.work-image-1 {
+    height: 200px;
+    width: 150px;
 }
+
+.work-image {
+    height: 300px;
+    width: 250px;
+}
+
+
+@media screen and (max-width: 762px) {
+    main {
+      width: 100%;
+    }
+    /* header {
+      background: #772014;
+    } */
+  }
